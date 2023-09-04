@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+.main-body{
+    background-color: #000;;
+}
+
+.content_size{
+    height: 85%;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    color: #F5F5F7;
+    display: block;
+}
+
+.heading{
+    margin: auto;
+    font-weight: 900;
+    font-size: 96px;
+    text-align: center;
+}
+
+p{
+    text-decoration: none;
+    margin: 0;
+}
+.sub_heading{
+    margin: auto;
+    font-weight: 900;
+    /* background-color: aquamarine; */
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.contact_section{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.contact_details{
+    font-family: 'Roboto', sans-serif;
+    color: #F5F5F7;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.wp_number{
+    margin: auto;
+    font-weight: 400;
+    /* background-color: aquamarine; */
+    font-size: 26px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.footer-size{
+   height: 15%;
+   position: sticky;
+}
+.footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #45454B;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.img_position{
+
+    position: sticky;
+}
+
+.footer-bottom{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
